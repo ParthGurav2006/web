@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruffins</title>
+</head>
+<style>
+    
+ 
+.stick {
+    border: 0.1px solid burlywood;
+    color: chocolate;
+    height: 5vh;
+    padding-top: 5px;
+    margin-top: -7.5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+
+.logo1 {
+    margin-left: -8px;
+    border: 0.3px solid burlywood;
+    background-color: powderblue;
+    margin-right: -10px;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin-top: -55px;
+    font-size: 25px;
+}
+
+li {
+    list-style-type: none;
+    padding-inline: 10px;
+}
+
+button {
+    background-color: palevioletred;
+    font-size: 20px;
+    border-radius: 5vw;
+    height: 30px;
+    padding-bottom: -90px;
+}
+
+.pic {
+    border: 1px solid burlywood;
+    height: 106.5vh;
+    background-color: coral;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.txt {
+    border: 1px solid burlywood;
+    height: 150vh;
+    background-color: #F0F8FF;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.subtxt {
+    border: 1px solid #F0F8FF;
+    width: 40vw;
+    margin-left: 30vw;
+    color: cadetblue;
+}
+
+.sub1 {
+    border: 1px solid #F0F8FF;
+    width: 20vw;
+    height: fit-content;
+    margin-left: 1050px;
+    color: chocolate;
+}
+
+.sub4 {
+    border: 1px solid #F0F8FF;
+    width: 20vw;
+    height: fit-content;
+    margin-left: 1050px;
+    color: chocolate;
+
+}
+
+.subimgg {
+    margin-top: -300px;
+    margin-left: 450px;
+    position: relative;
+    mix-blend-mode: multiply;
+}
+
+.sub2 {
+    border: 1px solid #F0F8FF;
+    width: 20vw;
+    height: fit-content;
+    margin-right: 1050px;
+    margin-top: -200px;
+    color: chocolate;
+
+}
+
+.sub3 {
+    border: 1px solid #F0F8FF;
+    width: 20vw;
+    height: fit-content;
+    margin-right: 1050px;
+    margin-top: -550px;
+    color: chocolate;
+
+}
+.prodsub{
+    border: 2pxsolid #acfac1;
+    height: fit-content;
+    margin-top: -22px;
+    margin-bottom: -22px;
+    width: 100vw;
+    background-color: #acfac1;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+.products {
+    border: 1px solid #acfac1;
+    height: 80vh;
+    background-color: #acfac1;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+     gap: 60px;
+    justify-content: center;
+    align-content: center;
+}
+.ops{
+    border: 2px solid orange;
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+    margin-top: 50px;
+}
+.bb{
+    height: 50px;
+    width: 150px;
+    margin-left: 200%;
+}
+.p1 {
+    border: 1px solid burlywood;
+    height: 80vh;
+    background-color: khaki;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.pk {
+    border: 2px solid khaki;
+    width: 25%;
+    height: 40vh;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.one {
+    float: right;
+    margin-top: -250px;
+    margin-right: 100px;
+    border-radius: 5%;
+}
+
+.k {
+    height: 50px;
+    width: 150px;
+    margin-top: 60px;
+    background-color: chocolate;
+    margin-left: 50%;
+}
+
+.p2 {
+    border: 1px solid burlywood;
+    height: 80vh;
+    background-color: mediumorchid;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+}
+
+.tt3 {
+    border: 0px solid red;
+    margin-left: 60px;
+    margin-top: 15px;
+    height: 30px;
+}
+
+.tt {
+    border: 2px solid mediumorchid;
+    width: 25%;
+    height: 40vh;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+.t {
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    background-color: darkseagreen;
+}
+
+.p3 {
+    border: 1px solid burlywood;
+    height: 140vh;
+    background-color: #b6fac6;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+     gap: 60px;
+    justify-content: center;
+    align-content: center;
+}
+
+.bs {
+    border: 2px solid orange;
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+}
+
+.p4 {
+    border: 1px solid burlywood;
+    height: 80vh;
+    background-color: #fad4d2;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.lp{
+    font-size: 25px;
+    margin-top: 75px;
+}
+.sp{
+    
+}
+
+
+.end {
+    border: 1px solid burlywood;
+    height: 80vh;
+    background-color: #b0caff;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+</style>
+
+<body>
+
+    <head>
+        <div class="stick">Flat 15% off on your first order.Use code SIGNUP15</div>
+        <div class="logo1"><img src="https://theobroma.in/cdn/shop/files/theologo.jpg?v=1614330377" alt=""
+                width="250px">
+            <nav>
+                <ul>
+                    <li>About Us</li>
+                    <li>Products</li>
+                    <li>Speciality Cakes</li>
+                    <li>Find Us</li>
+                    <li>Contact Us</li>
+                    <li><button>Search </button></li>
+                    <li><button>Order online</button></li>
+                </ul>
+            </nav>
+        </div>
+    </head>
+    <main>
+        <div class="pic"><img
+                src="https://cdn.shopify.com/s/files/1/0521/3929/4884/files/BLUEBERRY_DANISH_WEB_BANNER.jpg?v=1709277953"
+                alt="" width="1350px"> </div>
+        <div class="txt">
+            <div class="subtxt">
+                <center>
+                    <h1>Food of The Gods, Freshly Baked!</h1>
+                </center>
+                <br>
+                <center>
+                    <h3>Since 2004, we've been serving our guests the best quality treats, traditionally made and
+                        presented with care.</h3>
+                </center>
+            </div>
+            <div class="sub1">
+                <center>
+                    <h1>AUTHENTIC RECIPES</h1>
+                    <h3>Our products are based on
+                        traditional home-style recipes
+                        using fresh ingredients</h3>
+                </center>
+            </div>
+            <div class="sub4">
+                <center>
+                    <h1>BAKED WITH LOVE</h1>
+                    <h3> Our passion for baking is poured into
+                        every recipe, serving smiles on a
+                        plate everyday.</h3>
+                </center>
+            </div>
+            <div class="subimgg"><img
+                    src="https://theobroma.in/cdn/shop/files/theo-home_03c4e3a4-9dc9-4de7-9464-16e655a238ed_2.jpg?v=1630652883"
+                    alt=""></div>
+            <div class="sub2">
+                <center>
+                    <h1>COMMITTED TO QUALITY</h1>
+                    <h3>From our ingredients to our
+                        kitchen operations & guest services,
+                        we always prioritize quality.</h3>
+                </center>
+            </div>
+            <div class="sub3">
+                <center>
+                    <h1>HONESTLY PRICED</h1>
+                    <h3>We constantly strive to offer the best
+                        products at the right prices.</h3>
+                </center>
+            </div>
+
+        </div>
+        <div class="prodsub">
+            <center>
+                <h1>Our Products</h1>
+            </center>
+        </div>
+        <div class="products">
+            <div class="ops"><img src="https://theobroma.in/cdn/shop/files/redvelvet-theo.jpg?v=1701321860" alt=""
+                    width="250px"></div>
+            <div class="ops"><img src="https://theobroma.in/cdn/shop/files/Delicacies-02.jpg?v=1681320315" alt=""
+                    width="250px"></div>
+            <div class="ops"><img src="https://theobroma.in/cdn/shop/files/Delicacies-04.jpg?v=1681320427" alt=""
+                    width="250px"></div>
+            <div class="ops"><img src="https://theobroma.in/cdn/shop/files/Delicacies-06.jpg?v=1681320464" alt=""
+                    width="250px"></div>
+            <center><button class="bb">View More</button>
+        </div>
+        <div class="p1">
+            <div class="pk">
+                <h1>Packed with love &
+                    all your favourites!</h1>
+                <h3>Now gift your loved ones our special hampers curated with our signature products.</h3>
+                <center><button class="k">View More</button>
+            </div>
+
+            <img src="https://theobroma.in/cdn/shop/files/HIGH_RES_Hamper_Gifting_02_-_1200x1000_1.jpg?v=1682674967"
+                alt="" width="500px" align="right" class="one">
+
+        </div>
+        <div class="p2">
+
+            <div class="tt3"><img src="https://theobroma.in/cdn/shop/files/Tea-Cakes.gif?v=1709131871" alt=""
+                    width="550px"></div>
+            <div class="tt">
+                <h1>Tea-Time Delights</h1>
+                <h3>Pick the perfect companion for your tea (or coffee!) from a range of tea cakes & more.</h3>
+                <center><button class="t">View More</button></center>
+            </div>
+
+        </div>
+        <div class="p3">
+            <div class="bs"><img src="https://theobroma.in/cdn/shop/files/ChocoholicCakehalfkg_400x400.jpg?v=1711125918"
+                    alt="" width="250px">
+                <center>
+                    <h1>Chocoholic Cake</h1>
+            </div>
+            <div class="bs"><img
+                    src="https://theobroma.in/cdn/shop/files/ChocolateTart-InstagramFeeds02_400x400.jpg?v=1711184941"
+                    alt="" width="250px">
+                <center>
+                    <h1>Chocolate Tart</h1>
+            </div>
+            <div class="bs"><img src="https://theobroma.in/cdn/shop/files/MultigrainLoaf_400x400.jpg?v=1710837581"
+                    alt="" width="250px">
+                <center>
+                    <h1>Multigrain Loaf</h1>
+            </div>
+            <div class="bs"><img src="https://theobroma.in/cdn/shop/files/QuicheNonVeg02_400x400.jpg?v=1711004762"
+                    alt="" width="250px">
+                <center>
+                    <h1>Quiche Non-Veg</h1>
+            </div>
+            <div class="bs"><img
+                    src="https://theobroma.in/cdn/shop/files/EgglessMillionaireBrownie_400x400.jpg?v=1711183256" alt=""
+                    width="250px">
+                <center>
+                    <h1>Brownie</h1>
+            </div>
+            <div class="bs"><img src="https://theobroma.in/cdn/shop/files/ButterPalmier_400x400.jpg?v=1711187341" alt=""
+                    width="250px">
+                <center>
+                    <h1>Butter Palmiers</h1>
+            </div>
+            <div class="bs"><img
+                    src="https://theobroma.in/cdn/shop/files/HIGHRESDenseLoafCloseUp-Square_400x400.jpg?v=1711002439"
+                    alt="" width="250px">
+                <center>
+                    <h1>Dense Loaf</h1>
+            </div>
+            <div class="bs"><img
+                    src="https://theobroma.in/cdn/shop/files/FreshCreamPineappleCakehalfkg02_cca038c8-bb78-4bc3-b62c-26cde91670ad_400x400.jpg?v=1711124785"
+                    alt="" width="250px">
+                <center>
+                    <h2>Fresh Cream Pineapple Cake</h1>
+            </div>
+        </div>
+        <div class="p4">
+            <div class="lp">
+                <center>
+                    <h1>Like our products?</h1>
+                </center>
+                <div class="sp">
+                    <center>
+                        <h4>Treat yourself to your favourite Theobroma products or surprise your loved ones with an
+                            edible gift.</h4>
+                    </center>
+                </div>
+                <center><button class="t">Order Online</button></center>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="end"></div>
+    </footer>
+    <link rel="stylesheet" href="cake.css">
+</body>
+
+</html>
